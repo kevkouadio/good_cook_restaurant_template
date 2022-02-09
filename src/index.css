@@ -16,15 +16,25 @@ nav {
   background-color: transparent;
 }
 
-.nav-link, .navbar-brand {
+.nav-link {
+  color: grey !important;
+}
+
+.navbar-brand {
   color: white !important;
 }
 
-.nav-link:hover{
-  background-color: grey;
+.nav-link:hover {
+  color:aliceblue !important;
 }
 
 .navbar-toggler-icon {
-  background-color: aliceblue;
-  
+  background-color: aliceblue;  
+}
+
+@media(max-width: 850px) {
+  nav {
+    background-color: black;
+    margin: 0 !important;
+  }
 }
