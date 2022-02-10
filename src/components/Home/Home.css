@@ -1,0 +1,53 @@
+#home-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#home-btn {
+    width: 150px;
+    height: 50px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+#home-btn:hover {
+    background-color:white;
+    color:black;
+}
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("https://wallpaperaccess.com/full/3014609.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+
+#home-h1 {
+    color:aliceblue;
+    padding: 10px;
+    font-size: 70px;
+    /* text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black; */
+}
+
+#home-p {
+    color: lightgray;
+    padding: 10px;
+    font-size: 20px;
+    /* text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+@media(min-width: 920px) {
+    #home {
+        height: 100vh;
+    }
+  }
+
+

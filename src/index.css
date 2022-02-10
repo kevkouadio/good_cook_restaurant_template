@@ -10,31 +10,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} 
 
-nav {
-  background-color: transparent;
-}
-
-.nav-link {
-  color: grey !important;
-}
-
-.navbar-brand {
-  color: white !important;
-}
-
-.nav-link:hover {
-  color:aliceblue !important;
-}
-
-.navbar-toggler-icon {
-  background-color: aliceblue;  
-}
-
-@media(max-width: 850px) {
-  nav {
-    background-color: black;
-    margin: 0 !important;
-  }
-}

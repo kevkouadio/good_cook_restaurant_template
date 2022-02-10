@@ -1,0 +1,30 @@
+nav {
+    background-color: transparent;
+  }
+
+  .navbar-brand, .nav-link {
+    font-family: 'Raleway', sans-serif; 
+  }
+
+  .nav-link {
+    color: lightgrey !important;
+  }
+  
+  .navbar-brand {
+    color: azure !important;
+  }
+  
+  .nav-link:hover {
+    color:yellow !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: aliceblue;  
+  }
+  
+  @media(max-width: 850px) {
+    nav {
+      background-color: black;
+      margin: 0 !important;
+    }
+  }
