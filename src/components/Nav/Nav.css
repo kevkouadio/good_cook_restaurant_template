@@ -1,8 +1,5 @@
-nav {
-    background-color: transparent;
-  }
 
-  .navbar-brand, .nav-link {
+  .navbar-brand, .nav-link, .navbar-toggler {
     font-family: 'Raleway', sans-serif; 
   }
 
@@ -15,16 +12,34 @@ nav {
   }
   
   .nav-link:hover {
-    color:yellow !important;
+    color:orangered !important;
   }
   
   .navbar-toggler-icon {
     background-color: aliceblue;  
   }
+
+  nav{
+    background-color: transparent;
+  }
   
-  @media(max-width: 850px) {
+.scrolled {
+    background-color: white;
+    transition: 1.5s ease-out;
+  }
+
+  .logo, .Navlink {
+    color: black !important;
+  }
+  
+
+  @media(max-width: 915px) {
     nav {
-      background-color: black;
-      margin: 0 !important;
+      background-color: black !important;
+      /* margin: 0 !important; */
+
+    }
+    .scrolled{
+      background-color: white !important;
     }
   }
