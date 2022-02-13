@@ -2,7 +2,9 @@ import"./About.css"
 
 function About(){
     return (
-        <div className="container" id="about">
+        <section>
+        <div id="about"></div>    
+        <div className="container" id="about-container">
             <div className="row" id="about-row">
                 <div className="col-sm-6">
                         <div className="card-body">
@@ -23,6 +25,7 @@ function About(){
                 </div>
             </div>
         </div>
+    </section>
     )
 }
 

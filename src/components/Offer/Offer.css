@@ -1,0 +1,10 @@
+#offer-section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
+    background-color: rgb(241, 241, 220);
+}
+
+.carousel-control-prev-icon {
+    border: 1px solid transparent;
+}

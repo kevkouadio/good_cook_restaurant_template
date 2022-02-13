@@ -21,11 +21,17 @@
 
   nav{
     background-color: transparent;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
   }
   
 .scrolled {
     background-color: white;
-    transition: 1.5s ease-out;
+    /* transition: 0.5s ease-out; */
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
   }
 
   .logo, .Navlink {
