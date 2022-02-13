@@ -17,26 +17,38 @@ function Offer() {
                     <Carousel>
                         <Carousel.Item interval={5000}>
                             <div className="row">
-                            <div className="col-sm-6">
-                            <div className="card" >
+                                <div className="col-sm-4">
+                                <div className="card offer-card" >
+                                    <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
+                                    <div className="card-body">
+                                        <h5 className="card-title food-price">Price</h5>
+                                        <h5 className="card-title">Food name</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                    <button className='orderNow-btn align-self-center'>Order Now</button>
+                                </div>
+                                </div>
+                            <div className="col-sm-4">
+                            <div className="card offer-card" >
                                 <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                <h5 className="card-title">Price</h5>
-                                <h5 className="card-title">Food name</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 className="card-title food-price">Price</h5>
+                                    <h5 className="card-title">Food name</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <button>Order Now</button>
+                                <button className='orderNow-btn align-self-center'>Order Now</button>
                             </div>
                             </div>
-                            <div className="col-sm-6">
-                            <div className="card" >
+                            
+                            <div className="col-sm-4">
+                            <div className="card offer-card" >
                                 <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                <h5 className="card-title">Price</h5>
-                                <h5 className="card-title">Food name</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 className="card-title food-price">Price</h5>
+                                    <h5 className="card-title">Food name</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <button>Order Now</button>
+                                <button className='orderNow-btn align-self-center'>Order Now</button>
                             </div>
                             </div>
                             </div>
@@ -44,39 +56,45 @@ function Offer() {
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
                             <div className="row">
-                            <div className="col-sm-6">
-                            <div className="card" >
-                                <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
-                                <div className="card-body">
-                                <h5 className="card-title">Price</h5>
-                                <h5 className="card-title">Food name</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="col-sm-4">
+                                    <div className="card offer-card">
+                                        <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
+                                        <div className="card-body">
+                                            <h5 className="card-title food-price">Price</h5>
+                                            <h5 className="card-title">Food name</h5>
+                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                        <button className='orderNow-btn align-self-center'>Order Now</button>
+                                    </div>
                                 </div>
-                                <button>Order Now</button>
-                            </div>
-                            
-                            </div>
-                            <div className="col-sm-6">
-                            <div className="card" >
-                                <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
-                                <div className="card-body">
-                                <h5 className="card-title">Price</h5>
-                                <h5 className="card-title">Food name</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="col-sm-4">
+                                    <div className="card offer-card" >
+                                        <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
+                                        <div className="card-body">
+                                        <h5 className="card-title food-price">Price</h5>
+                                        <h5 className="card-title">Food name</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                        <button className='orderNow-btn align-self-center'>Order Now</button>
+                                    </div>
                                 </div>
-                                <button>Order Now</button>
+                                <div className="col-sm-4">
+                                    <div className="card offer-card" >
+                                        <img src="https://www.thedailymeal.com/sites/default/files/2020/08/20/soulfood2.jpg" className="card-img-top" alt="..."/>
+                                        <div className="card-body">
+                                            <h5 className="card-title food-price">Price</h5>
+                                            <h5 className="card-title">Food name</h5>
+                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                        <button className='orderNow-btn align-self-center'>Order Now</button>
+                                    </div>
+                                </div>
                             </div>
-                            
-            </div>
-            </div>
-          
-        </Carousel.Item>
-      </Carousel>
+                            </Carousel.Item>
+                        </Carousel>
         
+                    </div>
                 </div>
-                </div>
-                
-         
     )
 }
 export default Offer;

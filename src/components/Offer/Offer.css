@@ -8,3 +8,23 @@
 .carousel-control-prev-icon {
     border: 1px solid transparent;
 }
+
+.offer-card {
+    margin: 4%;
+}
+
+/* .offer-row {
+    
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.orderNow-btn {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    margin-bottom: 10%;
+    font-family: 'Playfair Display', serif;
+}
