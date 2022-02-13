@@ -28,7 +28,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
     /* padding-top: 20%; */
 }
 
@@ -44,6 +44,24 @@
     padding: 10px;
     font-size: 20px;
     /* text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+  }
+
+.modal-btn-div {
+    margin-bottom: 20px;
+}
+
+input, textarea, select {
+    background-color: rgb(211, 216, 221) !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold !important;
+    font-size: large !important;
 }
 
 @media(min-width: 920px) {

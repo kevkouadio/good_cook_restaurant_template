@@ -5,9 +5,9 @@ import "./Offer.css"
 function Offer() {
     
     return(
-        <section id="offer-section">
-            <div className="container">
-                <div >
+        
+            <div id="offer-section">
+                <div className="container">
                     <h5 className="card-title" id="offer-h5">OUR OFFERS</h5>
                     <h1 id="offer-h1">Our Offer This Summer</h1>
                     <p className="card-text" id="offer-p">
@@ -76,8 +76,7 @@ function Offer() {
                 </div>
                 </div>
                 
-            
-        </section>
+         
     )
 }
 export default Offer;

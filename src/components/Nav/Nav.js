@@ -1,5 +1,6 @@
 import { useState } from "react";
-import $ from 'jquery'; 
+import $ from 'jquery';
+//import {Link} from 'react-scroll' 
 import "./Nav.css";
 
 function Nav() {
@@ -7,7 +8,7 @@ function Nav() {
     $( document ).ready(function() {
         $('.nav-link, .logo').on("click",function() {
             $(".navbar-collapse").removeClass('show');
-            console.log("clicked")
+            //console.log("clicked")
         });
     }); 
     //make navbar change color after scroll
