@@ -39,10 +39,13 @@ function Nav() {
                         <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#about" >ABOUT</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#offer-section">OFFER</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#offer">OFFER</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#" >MENU</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#menu" >MENU</a>
+                    </li>
+                    <li className="nav-item p-2">
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#contact" >CONTACT</a>
                     </li>
                 </ul>
             </div>

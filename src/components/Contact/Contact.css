@@ -1,0 +1,15 @@
+#gmap_canvas {
+    width: 250px;
+    height: 250px;
+}
+
+.text-muted {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media(min-width: 1025px) {
+    #gmap_canvas {
+        width: 600px;
+        height: 250px;
+    }
+  }
