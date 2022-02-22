@@ -7,6 +7,7 @@ import Offer from './components/Offer/Offer';
 import Menu from './components/Menu/Menu';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import Card from './components/Card/Card';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Menu />
         <Contact />
         <Footer />
+        <Card />
     </div>
   );
 }
