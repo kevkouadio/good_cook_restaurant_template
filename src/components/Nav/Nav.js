@@ -33,19 +33,19 @@ function Nav() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav" >
                 <ul className="navbar-nav align-items-start">
                     <li className="nav-item p-2" >
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#" >HOME</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="/" >HOME</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#about" >ABOUT</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="/about" >ABOUT</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#offer">OFFER</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="/offer">OFFER</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#menu" >MENU</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="/menu" >MENU</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="#contact" >CONTACT</a>
+                        <a className={colorChange ? "nav-link Navlink" :"nav-link"} href="/contact" >CONTACT</a>
                     </li>
                 </ul>
             </div>
